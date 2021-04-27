@@ -3,10 +3,10 @@ This is a suite of scripts to analyze data from WahreTabelle.de obtained by [WT-
 
 # Examples
 <div style="display: grid;">
-<div>![stats_analyzer.py example](pro_contra_stats/KT/WT-Community_pro_contra_stats_(S0910-S1920).png "stats_analyzer.py example")</div>
-<div>![team_histograms.py example](hist/SC%20Freiburg.png "team_histograms.py example")</div>
-<div>![team_statistics.py example](pro_contra_stats/Teams/all_1BL_seasons/Entscheidungen%20im%20Teamvergleich.png "team_statistics.py example")</div>
-<div>![team_statistics.py example](pro_contra_stats/Teams/1BL_seasons_per_team/Mainz%2005.png "team_statistics.py example")</div>
+<div>![stats_analyzer.py example](pro_contra_stats/KT/WT-Community_pro_contra_stats_(S0910-S1920).png)</div>
+<div>![team_histograms.py example](hist/SC%20Freiburg.png)</div>
+<div>![team_statistics.py example](pro_contra_stats/Teams/all_1BL_seasons/Entscheidungen%20im%20Teamvergleich.png)</div>
+<div>![team_statistics.py example](pro_contra_stats/Teams/1BL_seasons_per_team/Mainz%2005.png)</div>
 </div>
 
 ## stats_analyzer.py

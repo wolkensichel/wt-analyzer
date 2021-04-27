@@ -8,7 +8,7 @@ Dark colored reference bar graphs, which show the mean voting decision of all us
 
 Draw decisions are ignored. For small sample sizes, which do not satisfy the laplace condition, percentiles are approximated using a bionomial distribution. For larger sample sizes a normal distribution is assumed.
 
-<img src="examples/WT-Community_pro_contra_stats_S0910-S1920.png" alt="drawing" width="300"/>
+<img src="examples/WT-Community_pro_contra_stats_S0910-S1920.png" alt="drawing" width="500"/>
 
 
 ## team_histograms.py
@@ -16,7 +16,7 @@ The voting results of all users are normalized by the standard deviation of a di
 
 An expected normal distribution with correct magnitude given the mean and the standard deviation are set on top of the histogram as a means to interpret the statistical significance of the voting behavior. The sample size is heading each histogram.
 
-<img src="examples/SC-Freiburg.png" alt="drawing" width="300"/>
+<img src="examples/SC-Freiburg.png" alt="drawing" width="500"/>
 
 
 ## team_statistics.py
@@ -24,6 +24,6 @@ Plot bar graph diagram of overall voting decisions on teams for the chosen time 
 
 The script either plots a diagram comparing teams over the chosen time frame or plots a diagram showing the decisions on one team split by seasons.
 
-<img src="examples/Entscheidungen_im_Teamvergleich.png" alt="drawing" width="300"/>
+<img src="examples/Entscheidungen_im_Teamvergleich.png" alt="drawing" width="500"/>
 
-<img src="examples/Eintr.-Frankfurt.png" alt="drawing" width="300"/>
+<img src="examples/Eintr.-Frankfurt.png" alt="drawing" width="500"/>

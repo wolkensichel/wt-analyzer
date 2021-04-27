@@ -446,6 +446,6 @@ for user in user_stats_dict_abs:
         plt.text(102, len(teams)-.75, 'Erstellt von: celebhen / Quelle: www.wahretabelle.de', rotation=90, color='dimgray', weight='bold')
         
         plt.tight_layout()
-        plt.savefig('pro_contra_stats/KT_19-20/' + user + '_pro_contra_stats_' + seasons.replace(' ','').replace('/','') + '.png')
+        plt.savefig('pro_contra_stats/KT_19-20/' + user + '_pro_contra_stats_' + seasons.replace(' ','').replace('/','').replace('(','').replace(')','') + '.png')
         plt.close()
         #break

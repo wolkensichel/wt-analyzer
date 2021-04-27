@@ -234,6 +234,7 @@ if sum_seasons == True:
     plt.text(ax.get_xlim()[1]*1.015, 0.01*ax.get_ylim()[1], 'Erstellt von: celebhen / Quelle: www.wahretabelle.de', rotation=90, color='dimgray', weight='bold')
 
     plt.tight_layout()
+    title.replace(' ','_')
     plt.savefig('pro_contra_stats/Teams/all_1BL_seasons/' + title + '.png')
     plt.close()
 
@@ -293,6 +294,6 @@ else:
         plt.text(ax.get_xlim()[1]*1.015, 0.01*ax.get_ylim()[1], 'Erstellt von: celebhen / Quelle: www.wahretabelle.de', rotation=90, color='dimgray', weight='bold')
 
         plt.tight_layout()
-        plt.savefig('pro_contra_stats/Teams/1BL_seasons_per_team/' + title[15:] + '.png')
+        plt.savefig('pro_contra_stats/Teams/1BL_seasons_per_team/' + title[15:].replace(' ','_') + '.png')
         plt.close()
     

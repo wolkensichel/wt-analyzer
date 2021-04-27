@@ -131,6 +131,7 @@ for team_1BL in teams_1BL:
             yt = t.pdf(x, df)
             plt.plot(x, yt, color='g', ls='dashed')
         plt.title(team + ' - #values: ' + str(len(hist_vals_pro[team])))
+        team.replace(' ','-')
         #plt.savefig('hist/' + team + '.png')
         #plt.close()
         plt.show()

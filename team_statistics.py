@@ -17,7 +17,7 @@ end_year = 19
 
 alpha = 0.0027 # 3*sigma
 
-exclude_kt_fan = True      # exclude kt members that are fan of a involved club
+exclude_kt_fan = True      # exclude kt members that are fan of an involved club
 exclude_wt_comm = True     # exclude community vote from decision
 sum_seasons = False          # sum team stats of all seasons for plot
 teams_to_compare = ['Bayern München', 'Bor. Dortmund', 'Schalke 04', 'Bayer Leverkusen', "Bor. M'Gladbach", 'RB Leipzig']

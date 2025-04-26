@@ -3,7 +3,7 @@
 """
 Created on Fri Nov 15 15:31:50 2019
 
-@author: wolkensichel
+@author: Alexander Aigner
 """
 
 from math import factorial

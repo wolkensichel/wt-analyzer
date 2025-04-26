@@ -1,5 +1,5 @@
 # WT-Analyzer
-This is a suite of scripts to analyze data from WahreTabelle.de obtained by [WT-Scrapper](https://github.com/wolkensichel/wt-scrapper).
+This is a suite of scripts to analyze data from WahreTabelle.de obtained by [WT-Scraper](https://github.com/wolkensichel/wt-scraper).
 
 ## stats_analyzer.py
 Adds up all decisions for and against each team, a WT-User voted on, for the chosen time frame (in seasons) and visualizes those results in a horizontal bar graph on a percentage scale with absolute values noted at the tip of each bar. Next to the team name a percentile value provdides information on the likelihood of the result.
